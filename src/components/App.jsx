@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { LoginForm } from './LoginForm/LoginForm';
 import { RegisterForm } from './RegisterForm/RegisterForm';
 import { Layout } from './Layout/Layout';
-import { Home } from './Home/Home';
+import { Home } from '../pages/Home';
 import ContactList from './ContactList/ContactList';
 
 export const App = () => {

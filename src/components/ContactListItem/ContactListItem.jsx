@@ -7,12 +7,15 @@ const ContactListItem = ({ contact }) => {
   const handleDelete = () => {
     dispatch(deleteContact(contact.id));
 
-    //   const contactsLocalStorage = JSON.parse(localStorage.getItem('contacts'));
-    //   const updatedContacts = contactsLocalStorage.filter(
-    //     item => item.id !== contact.id
-    //   );
+    //   const [open, setOpen] = useState(false);
+    // };
 
-    //   localStorage.setItem('contacts', JSON.stringify(updatedContacts));
+    // const handleOpen = () => {
+    //   setOpen(true);
+    // };
+
+    // const handleClose = () => {
+    //   setOpen(false);
   };
 
   return (
