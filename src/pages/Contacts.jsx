@@ -2,8 +2,8 @@ const { default: Filter } = require('components/Filter/Filter');
 const { useEffect } = require('react');
 const { Helmet } = require('react-helmet');
 const { useDispatch, useSelector } = require('react-redux');
-const { fetchContacts } = require('redux/operations');
-const { selectIsLoading, selectError } = require('redux/selectors');
+const { fetchContacts } = require('redux/contacts/operations');
+const { selectIsLoading, selectError } = require('redux/filter/selectors');
 
 export default Contacts = () => {
   const dispatch = useDispatch();

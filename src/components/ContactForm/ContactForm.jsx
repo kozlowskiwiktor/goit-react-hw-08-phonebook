@@ -3,7 +3,7 @@ import { nanoid } from '@reduxjs/toolkit';
 import css from 'container.module.css';
 
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/operations';
+import { addContact } from '../../redux/contacts/operations';
 
 const ContactForm = () => {
   const dispatch = useDispatch();
