@@ -5,7 +5,7 @@ const { useDispatch, useSelector } = require('react-redux');
 const { fetchContacts } = require('redux/contacts/operations');
 const { selectIsLoading, selectError } = require('redux/filter/selectors');
 
-export default Contacts = () => {
+export const Contacts = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {

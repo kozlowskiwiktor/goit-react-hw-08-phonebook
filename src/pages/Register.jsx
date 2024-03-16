@@ -2,7 +2,7 @@ import { RegisterForm } from 'components/RegisterForm/RegisterForm';
 
 const { Helmet } = require('react-helmet');
 
-export default Register = () => {
+export const Register = () => {
   return (
     <div>
       <Helmet>
